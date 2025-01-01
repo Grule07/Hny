@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025!</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff5f6d, #ffc3a0);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 5rem;
+            animation: fadeIn 3s ease-in-out;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            animation: fadeIn 4s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fireworks {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            animation: fireworks 1.5s infinite;
+        }
+        @keyframes fireworks {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.6;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fireworks">🎆🎇🎆</div>
+    <h1>Happy New Year 2025!</h1>
+    <h2>Wishing you all the best in the coming year!</h2>
+
+</body>
+</html>
